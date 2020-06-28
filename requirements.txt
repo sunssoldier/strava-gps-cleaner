@@ -1,0 +1,15 @@
+branca==0.4.1
+certifi==2020.6.20
+chardet==3.0.4
+folium==0.11.0
+gpxpy==1.4.1
+idna==2.10
+Jinja2==2.11.2
+joblib==0.15.1
+MarkupSafe==1.1.1
+numpy==1.19.0
+requests==2.24.0
+scikit-learn==0.23.1
+scipy==1.5.0
+threadpoolctl==2.1.0
+urllib3==1.25.9
