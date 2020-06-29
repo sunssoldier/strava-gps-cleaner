@@ -16,10 +16,10 @@ def export_data(gpx):
 	for track in gpx.tracks:
 		for segment in track.segments:
 			for point in segment.points:
-				print('Point at ({0},{1}) -> {2}'.format(
-					point.latitude,
-					point.longitude,
-					point.elevation))
+# 				print('Point at ({0},{1}) -> {2}'.format(
+# 					point.latitude,
+# 					point.longitude,
+# 					point.elevation))
 				lol.append([
 					point.latitude,
 					point.longitude])
@@ -35,7 +35,7 @@ def build_cluster(geo_array, epsilon, min_points):
 	print(np.asarray((unique, counts)).T)
 	labels = np.reshape(clustering.labels_,(len(clustering.labels_),1))
 	new_array = np.concatenate((geo_array, labels), axis=1)
-	return clustering, new_array
+	return clustering, new_array, labels
 
 
 if __name__ == "__main__":
