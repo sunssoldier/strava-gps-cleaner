@@ -4,7 +4,7 @@ chardet==3.0.4
 folium==0.11.0
 gpxpy==1.4.1
 idna==2.10
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==0.15.1
 MarkupSafe==1.1.1
 numpy==1.19.0
